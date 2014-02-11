@@ -331,9 +331,9 @@ public class CatUtils {
     }
   }
   
-  public static int getThreatFixDurability(Player player, int dmg) {
+  public static double getThreatFixDurability(Player player, double dmg) {
     ItemStack stk = player.getItemInHand();
-    int threat = dmg;
+    double threat = dmg;
     if(stk==null)
       return threat;
     

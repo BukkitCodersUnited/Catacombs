@@ -27,7 +27,7 @@ import org.bukkit.event.entity.EntityDamageEvent;
 public class Mob {
   private LivingEntity ent;
   private MobType type=null;
-  private int hps;
+  private double hps;
   Boolean notify = false;
   
   private long gotHit=0;
